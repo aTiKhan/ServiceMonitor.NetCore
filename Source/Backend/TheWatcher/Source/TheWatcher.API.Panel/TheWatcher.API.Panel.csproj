@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TheWatcher.API.Common\TheWatcher.API.Common.csproj" />
+    <ProjectReference Include="..\TheWatcher.Domain.Core\TheWatcher.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
